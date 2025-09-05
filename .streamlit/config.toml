@@ -1,0 +1,19 @@
+# .streamlit/config.toml
+
+[theme]
+
+# The primary color for interactive elements
+primaryColor="#1a73e8"
+
+# The main background color
+backgroundColor="#F0F2F6"
+
+# The background color for cards, widgets, and sidebars
+secondaryBackgroundColor="#FFFFFF"
+
+# The color for text
+textColor="#262730"
+
+# The font family for the app
+# "sans serif" is a clean, modern font similar to Google's Roboto.
+font="sans serif"
