@@ -18,7 +18,8 @@ except AttributeError:
 
 # --- CORE AI FUNCTION ---
 def get_gemini_response(image, craft_name, artist_name):
-    model = genai.GenerativeModel('gemini-1.5-pro-latest')
+    #model = genai.GenerativeModel('gemini-1.5-pro-latest')
+    model = genai.GenerativeModel('gemini-2.0-flash')
     prompt = f"""
     You are an expert e-commerce and social media marketer specializing in helping Indian artisans.
     Your tone should be warm, evocative, and respectful of the craft's heritage.
